@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="HTML5 advanced content and form example showcasing lists, tables, media, and validation features.">
+  <title>HTML5 Advanced Content and Form Example</title>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>Welcome to My Enhanced HTML5 Page</h1>
+    <p>Demonstrating lists, tables, media, and a structured HTML5 form with validation.</p>
+  </header>
+
+  <!-- Main content -->
+  <main>
+    <!-- Lists Section -->
+    <section>
+      <h2>Favorite Programming Languages</h2>
+      <ul>
+        <li>Python</li>
+        <li>JavaScript</li>
+        <li>HTML5 & CSS3</li>
+        <li>Java</li>
+      </ul>
+
+      <h2>Steps to Create a Web Page</h2>
+      <ol>
+        <li>Plan the structure</li>
+        <li>Write semantic HTML</li>
+        <li>Add media and content</li>
+        <li>Validate and test</li>
+      </ol>
+    </section>
+
+    <!-- Table Section -->
+    <section>
+      <h2>Course Schedule</h2>
+      <table border="1">
+        <caption>Weekly Class Schedule</caption>
+        <thead>
+          <tr>
+            <th>Day</th>
+            <th>Course</th>
+            <th>Time</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Monday</td>
+            <td>HTML5 Basics</td>
+            <td>09:00 - 11:00</td>
+          </tr>
+          <tr>
+            <td>Wednesday</td>
+            <td>CSS3 Styling</td>
+            <td>10:00 - 12:00</td>
+          </tr>
+          <tr>
+            <td>Friday</td>
+            <td>JavaScript Fundamentals</td>
+            <td>11:00 - 13:00</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Media Section -->
+    <section>
+      <h2>Media Examples</h2>
+      <h3>Image</h3>
+      <img src="example-image.jpg" alt="Example image of web design" width="400">
+
+      <h3>Audio</h3>
+      <audio controls>
+        <source src="example-audio.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+
+      <h3>Video</h3>
+      <video controls width="480">
+        <source src="example-video.mp4" type="video/mp4">
+        Your browser does not support the video element.
+      </video>
+    </section>
+
+    <!-- Form Section -->
+    <section>
+      <h2>Contact Form</h2>
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Personal Information</legend>
+
+          <label for="fullname">Full Name:</label>
+          <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required minlength="3">
+          <br><br>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="example@mail.com" required>
+          <br><br>
+
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required minlength="6">
+          <br><br>
+
+          <label for="birthdate">Date of Birth:</label>
+          <input type="date" id="birthdate" name="birthdate" required>
+        </fieldset>
+
+        <fieldset>
+          <legend>Preferences</legend>
+
+          <label for="country">Country:</label>
+          <select id="country" name="country" required>
+            <option value="">Select your country</option>
+            <option value="us">United States</option>
+            <option value="uk">United Kingdom</option>
+            <option value="ca">Canada</option>
+            <option value="au">Australia</option>
+          </select>
+          <br><br>
+
+          <label>Gender:</label>
+          <input type="radio" id="male" name="gender" value="male" required>
+          <label for="male">Male</label>
+          <input type="radio" id="female" name="gender" value="female">
+          <label for="female">Female</label>
+          <input type="radio" id="other" name="gender" value="other">
+          <label for="other">Other</label>
+          <br><br>
+
+          <label for="hobbies">Hobbies:</label>
+          <input type="checkbox" id="reading" name="hobbies" value="reading">
+          <label for="reading">Reading</label>
+          <input type="checkbox" id="sports" name="hobbies" value="sports">
+          <label for="sports">Sports</label>
+          <input type="checkbox" id="music" name="hobbies" value="music">
+          <label for="music">Music</label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Message</legend>
+          <label for="message">Your Message:</label>
+          <textarea id="message" name="message" rows="5" cols="40" placeholder="Type your message here..." required></textarea>
+        </fieldset>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Enhanced HTML5 Page. All rights reserved.</p>
+  </footer>
+</body>
+</html>
